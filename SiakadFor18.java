@@ -10,7 +10,7 @@ public class SiakadFor18 {
 
         for (int i = 1; i <= 10; i++) {
             System.out.print("Masukkan nilai mahasiswa ke- " + i + " : ");
-            nilai =  sc.nextDouble();
+            nilai = sc.nextDouble();
             if (nilai > tertinggi) {
                tertinggi = nilai;
             }
